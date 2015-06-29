@@ -20,26 +20,42 @@
         <![endif]-->
 
         <div class="header-container">
-            <header class="wrapper">
 
+            <div class="sliding-panel-button icon-menu"></div>
 
-            </header>
+            <nav class="js-menu sliding-panel-content">
+              <ul>
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">Contact</a></li>
+              </ul>
+            </nav>
+
+            <div class="js-menu-screen sliding-panel-fade-screen"></div>
+
         </div>
 
-        <div class="main-container">
+        <main class="cd-container">
             <div class="main">
 
-
+                <ul class="image_container">
+                    <li><img src="images/lookbook/PAGE-1.jpg" /></li>
+                    <li><img src="images/lookbook/PAGE-2.jpg" /></li>
+                    <li><img data-original="images/lookbook/PAGE-3.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li><img data-original="images/lookbook/PAGE-3b.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li><img data-original="images/lookbook/PAGE-4.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li><img data-original="images/lookbook/PAGE-5.jpg" class="lazy" width="100%" height="auto"/></li>
+                </ul>
 
             </div> <!-- #main -->
-        </div> <!-- #main-container -->
+            <a href="#0" class="cd-top icon-circle-up"></a>
+        </main> <!-- #main-container -->
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/main.js"></script>
-        <script src="js/jquery.lazyload.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/vendor/jquery.lazyload.js"></script>
 
     </body>
 </html>
