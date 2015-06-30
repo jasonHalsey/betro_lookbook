@@ -5,7 +5,7 @@
   $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
   $sliding-panel-color: #fff;
   $sliding-panel-border: 1px solid $sliding-panel-border-color;
-  $sliding-panel-background-hover: $action-color;
+  $sliding-panel-background-hover: #000;
   $sliding-panel-color-hover: #fff;
   $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
@@ -13,7 +13,8 @@
   @include size(220px 100%);
   @include transform(translateX(-220px));
   @include transition(all 0.25s linear);
-  background: $sliding-panel-background;
+  // background: $sliding-panel-background;
+  background: rgba(0,0,0,0.7);
   z-index: 999999;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -31,7 +32,10 @@
     border-bottom: $sliding-panel-border;
     color: $sliding-panel-color;
     display: block;
-    font-weight: bold;
+    font-size: 2.0em;
+    font-weight:500;
+    text-transform: lowercase;
+    font-family: $primary-font;
     padding: 1em;
     text-decoration: none;
 
@@ -72,6 +76,7 @@
   top:1.0em;
   right:1.0em;
   outline: none;
+  z-index: 888;
 
   img {
     height: 1.3em;

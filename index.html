@@ -9,10 +9,12 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <script src="//use.typekit.net/wbt4gba.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
         <link rel="stylesheet" href="stylesheets/screen.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,7 +22,9 @@
         <![endif]-->
 
         <div class="header-container">
-
+            <div class="main_logo">
+                <img src="images/betro_logo.svg" />
+            </div>
             <div class="sliding-panel-button icon-menu"></div>
 
             <nav class="js-menu sliding-panel-content">
@@ -42,8 +46,15 @@
                     <li><img src="images/lookbook/PAGE-2.jpg" /></li>
                     <li><img data-original="images/lookbook/PAGE-3.jpg" class="lazy" width="100%" height="auto"/></li>
                     <li><img data-original="images/lookbook/PAGE-3b.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-4.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li class="byebye"><img data-original="images/lookbook/PAGE-4.jpg" class="lazy" width="100%" height="auto"/><div class="byebye_overlay"> This is the overlay</div></li>
                     <li><img data-original="images/lookbook/PAGE-5.jpg" class="lazy" width="100%" height="auto"/></li>
+
+               <!--      <li><img src="images/lookbook/PAGE-1.jpg" /></li>
+                    <li><img src="images/lookbook/PAGE-2.jpg" /></li>
+                    <li><img src="images/lookbook/PAGE-3.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li><img src="images/lookbook/PAGE-3b.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li class="byebye"><img src="images/lookbook/PAGE-4.jpg" class="lazy" width="100%" height="auto"/></li>
+                    <li><img src="images/lookbook/PAGE-5.jpg" class="lazy" width="100%" height="auto"/></li> -->
                 </ul>
 
             </div> <!-- #main -->
@@ -56,6 +67,7 @@
 
         <script src="js/scripts.js"></script>
         <script src="js/vendor/jquery.lazyload.js"></script>
+        <script src="js/vendor/jquery.waypoints.min.js"></script>
 
     </body>
 </html>

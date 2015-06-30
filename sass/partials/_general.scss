@@ -1,0 +1,30 @@
+html{
+	background-color: #000;
+}
+.main_logo{
+  padding: 10px 16px;
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top:1.0em;
+  left:1.0em;
+  outline: none;
+  z-index: 888;
+
+  img {
+    height: 5.3em;
+  }
+}
+div.byebye_overlay{
+	display: none;
+	padding:1.0em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#fff;
+	position: absolute;
+	z-index: 666;
+	width:50%;
+	top:50%;
+	right:50%;
+	font-family: $primary-font;
+	font-size:2.25em;
+}

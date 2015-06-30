@@ -343,39 +343,42 @@ picture {
   -webkit-transition: all 0.25s linear;
   -moz-transition: all 0.25s linear;
   transition: all 0.25s linear;
-  background: #404040;
+  background: rgba(0, 0, 0, 0.7);
   z-index: 999999;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-/* line 21, ../sass/partials/_sliding-menu.scss */
+/* line 22, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content ul {
   padding: 0;
   margin: 0;
 }
-/* line 26, ../sass/partials/_sliding-menu.scss */
+/* line 27, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content li {
   list-style: none;
 }
-/* line 30, ../sass/partials/_sliding-menu.scss */
+/* line 31, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content li a {
   border-bottom: 1px solid #333;
   color: #fff;
   display: block;
-  font-weight: bold;
+  font-size: 2.0em;
+  font-weight: 500;
+  text-transform: lowercase;
+  font-family: prenton-condensed;
   padding: 1em;
   text-decoration: none;
 }
-/* line 38, ../sass/partials/_sliding-menu.scss */
+/* line 42, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content li a:focus {
   background-color: #4d4d4d;
 }
-/* line 42, ../sass/partials/_sliding-menu.scss */
+/* line 46, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content li a:hover {
-  background-color: #477dca;
+  background-color: #000;
   color: #fff;
 }
-/* line 48, ../sass/partials/_sliding-menu.scss */
+/* line 52, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-content.is-visible {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
@@ -384,7 +387,7 @@ picture {
   transform: translateX(0);
 }
 
-/* line 53, ../sass/partials/_sliding-menu.scss */
+/* line 57, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-fade-screen {
   position: fixed;
   top: 0px;
@@ -399,13 +402,13 @@ picture {
   visibility: hidden;
   z-index: 999998;
 }
-/* line 61, ../sass/partials/_sliding-menu.scss */
+/* line 65, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-fade-screen.is-visible {
   opacity: 0.4;
   visibility: visible;
 }
 
-/* line 67, ../sass/partials/_sliding-menu.scss */
+/* line 71, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-button {
   padding: 10px 16px;
   display: inline-block;
@@ -414,8 +417,9 @@ picture {
   top: 1.0em;
   right: 1.0em;
   outline: none;
+  z-index: 888;
 }
-/* line 76, ../sass/partials/_sliding-menu.scss */
+/* line 81, ../sass/partials/_sliding-menu.scss */
 .sliding-panel-button img {
   height: 1.3em;
 }
@@ -425,12 +429,12 @@ picture {
 Modules - reusable parts of our design
 
 -------------------------------- */
-/* line 88, ../sass/partials/_sliding-menu.scss */
+/* line 93, ../sass/partials/_sliding-menu.scss */
 .cd-container {
   width: 100%;
 }
 
-/* line 91, ../sass/partials/_sliding-menu.scss */
+/* line 96, ../sass/partials/_sliding-menu.scss */
 .cd-container::after {
   /* clearfix */
   content: '';
@@ -438,7 +442,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* line 97, ../sass/partials/_sliding-menu.scss */
+/* line 102, ../sass/partials/_sliding-menu.scss */
 .cd-top {
   display: block;
   position: fixed;
@@ -454,41 +458,41 @@ Modules - reusable parts of our design
   transition: opacity .3s 0s, visibility 0s .3s;
 }
 
-/* line 112, ../sass/partials/_sliding-menu.scss */
+/* line 117, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
 
-/* line 117, ../sass/partials/_sliding-menu.scss */
+/* line 122, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
 
-/* line 122, ../sass/partials/_sliding-menu.scss */
+/* line 127, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
 
-/* line 126, ../sass/partials/_sliding-menu.scss */
+/* line 131, ../sass/partials/_sliding-menu.scss */
 .no-touch .cd-top:hover {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 131, ../sass/partials/_sliding-menu.scss */
+  /* line 136, ../sass/partials/_sliding-menu.scss */
   .cd-top {
     right: 20px;
     bottom: 20px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 137, ../sass/partials/_sliding-menu.scss */
+  /* line 142, ../sass/partials/_sliding-menu.scss */
   .cd-top {
     height: 60px;
     width: 60px;
@@ -503,7 +507,7 @@ Modules - reusable parts of our design
   font-weight: normal;
   font-style: normal;
 }
-/* line 15, ../sass/partials/_fonts.scss */
+/* line 12, ../sass/partials/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -518,13 +522,13 @@ Modules - reusable parts of our design
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 30, ../sass/partials/_fonts.scss */
+/* line 28, ../sass/partials/_fonts.scss */
 .icon-menu:before {
   content: "\e9bd";
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 35, ../sass/partials/_fonts.scss */
+/* line 33, ../sass/partials/_fonts.scss */
 .icon-circle-up:before {
   content: "\ea41";
   color: rgba(255, 255, 255, 0.7);
@@ -539,19 +543,57 @@ ul.image_container {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
-/* line 5, ../sass/partials/_main-images.scss */
+/* line 6, ../sass/partials/_main-images.scss */
 ul.image_container li {
   margin: 0;
   padding: 0;
   width: 100%;
   height: auto;
+  position: relative;
 }
-/* line 10, ../sass/partials/_main-images.scss */
+/* line 12, ../sass/partials/_main-images.scss */
 ul.image_container li img {
   margin: 0;
   padding: 0;
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* line 1, ../sass/partials/_general.scss */
+html {
+  background-color: #000;
+}
+
+/* line 4, ../sass/partials/_general.scss */
+.main_logo {
+  padding: 10px 16px;
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top: 1.0em;
+  left: 1.0em;
+  outline: none;
+  z-index: 888;
+}
+/* line 14, ../sass/partials/_general.scss */
+.main_logo img {
+  height: 5.3em;
+}
+
+/* line 18, ../sass/partials/_general.scss */
+div.byebye_overlay {
+  display: none;
+  padding: 1.0em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  z-index: 666;
+  width: 50%;
+  top: 50%;
+  right: 50%;
+  font-family: prenton-condensed;
+  font-size: 2.25em;
 }

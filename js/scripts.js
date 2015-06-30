@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
 // Refills sliding menu
-  $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+  $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close,.main_logo').on('click touchstart',function (e) {
     $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
     e.preventDefault();
   });
@@ -9,7 +9,6 @@ $(document).ready(function(){
 // Lazyload images
   $(function() {
     $("img.lazy").lazyload();
-    console.log("loaded");
   });
 
 //Back To Top Scrolling
@@ -39,5 +38,14 @@ $(document).ready(function(){
 		);
 	});
 
+//Waypoints
+	$('.byebye').waypoint(function() {
+	   $('.byebye img').fadeTo( 3000, 0.4);
+	   $('.byebye_overlay').fadeIn(3000).delay(3000).fadeOut("slow").stop();
+	   },
+	{ offset: '10%' });
+
 
 }); //end doc.ready
+
+
