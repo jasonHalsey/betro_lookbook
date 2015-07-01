@@ -8,7 +8,9 @@ $(document).ready(function(){
 
 // Lazyload images
   $(function() {
-    $("img.lazy").lazyload();
+    $("img.lazy").lazyload({
+    	effect : "fadeIn"
+    });
   });
 
 //Back To Top Scrolling
@@ -40,8 +42,8 @@ $(document).ready(function(){
 
 //Waypoints
 	$('.byebye').waypoint(function() {
-	   $('.byebye img').fadeTo( 3000, 0.4);
-	   $('.byebye_overlay').fadeIn(3000).delay(3000).fadeOut("slow").stop();
+	   // $('.byebye img').fadeTo( 3000, 0.4);
+	   $('.byebye_overlay').fadeIn(1000).delay(6000).fadeOut("slow").stop();
 	   },
 	{ offset: '10%' });
 
