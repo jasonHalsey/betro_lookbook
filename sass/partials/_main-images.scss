@@ -17,4 +17,6 @@ ul.image_container{
 			display: block;
 		}
 	}
+
+	img[data-sizes="auto"] { display: block; }
 }

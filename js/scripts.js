@@ -7,11 +7,11 @@ $(document).ready(function(){
   });
 
 // Lazyload images
-  $(function() {
-    $("img.lazy").lazyload({
-    	effect : "fadeIn"
-    });
-  });
+  // $(function() {
+  //   $("img.lazy").lazyload({
+  //   	effect : "fadeIn"
+  //   });
+  // });
 
 //Back To Top Scrolling
 	// browser window scroll (in pixels) after which the "back to top" link is shown
