@@ -44,7 +44,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 		}
 	});
 
-	//smooth scroll to top
+//smooth scroll to top
 	$back_to_top.on('click', function(event){
 		event.preventDefault();
 		$('body,html').animate({
