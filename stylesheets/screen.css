@@ -365,7 +365,7 @@ picture {
   font-size: 2.0em;
   font-weight: 500;
   text-transform: lowercase;
-  font-family: prenton-condensed;
+  font-family: felt-tip-woman;
   padding: 1em;
   text-decoration: none;
 }
@@ -607,6 +607,6 @@ div.byebye_overlay {
   width: 50%;
   top: 50%;
   right: 50%;
-  font-family: prenton-condensed;
+  font-family: felt-tip-woman;
   font-size: 2.25em;
 }

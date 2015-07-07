@@ -9,14 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        
-        
-
         <link rel="stylesheet" href="stylesheets/screen.css">
-
-        
-
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -47,21 +40,6 @@
             <div class="main">
 
                 <ul class="image_container">
-                    <!-- <li><img src="images/lookbook/PAGE-1.jpg" /></li>
-                    <li><img src="images/lookbook/PAGE-2.jpg" /></li>
-                    <li><img data-original="images/lookbook/PAGE-3.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-3b.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li class="byebye"><img data-original="images/lookbook/PAGE-4.jpg" class="lazy" width="100%" height="auto"/><div class="byebye_overlay"> This is the overlay</div></li>
-                    <li><img data-original="images/lookbook/PAGE-5.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-6.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-7.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-8b.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-8.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-9.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-10.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-12.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-16.jpg" class="lazy" width="100%" height="auto"/></li>
-                    <li><img data-original="images/lookbook/PAGE-17.jpg" class="lazy" width="100%" height="auto"/></li> -->
                     <li>
 
                         <img
@@ -92,7 +70,8 @@
                                 images/lookbook/PAGE-3.jpg 1024w"
                             class="lazyload" />
                     </li>
-                    <li>
+
+                    <li class="byebye">
 
                         <img
                             alt=""
@@ -100,6 +79,27 @@
                             sizes="(min-width: 1000px) 930px, 90vw"
                             data-srcset="images/lookbook/PAGE-3b-sm.jpg 500w,
                                 images/lookbook/PAGE-3b.jpg 1024w"
+                            class="lazyload" />
+                        <div class="byebye_overlay"> This is the overlay</div>
+                    </li>
+                    <li>
+
+                        <img
+                            alt=""
+                            src="images/lookbook/PAGE-10-sm.jpg"
+                            sizes="(min-width: 1000px) 930px, 90vw"
+                            data-srcset="images/lookbook/PAGE-10-sm.jpg 500w,
+                                images/lookbook/PAGE-10.jpg 1024w"
+                            class="lazyload" />
+                    </li>
+                    <li>
+
+                        <img
+                            alt=""
+                            src="images/lookbook/PAGE-8b-sm.jpg"
+                            sizes="(min-width: 1000px) 930px, 90vw"
+                            data-srcset="images/lookbook/PAGE-8b-sm.jpg 500w,
+                                images/lookbook/PAGE-8b.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
@@ -152,16 +152,7 @@
                                 images/lookbook/PAGE-8.jpg 1024w"
                             class="lazyload" />
                     </li>
-                    <li>
-
-                        <img
-                            alt=""
-                            src="images/lookbook/PAGE-8b-sm.jpg"
-                            sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/PAGE-8b-sm.jpg 500w,
-                                images/lookbook/PAGE-8b.jpg 1024w"
-                            class="lazyload" />
-                    </li>
+                    
                     <li>
 
                         <img
@@ -172,16 +163,7 @@
                                 images/lookbook/PAGE-9.jpg 1024w"
                             class="lazyload" />
                     </li>
-                    <li>
-
-                        <img
-                            alt=""
-                            src="images/lookbook/PAGE-10-sm.jpg"
-                            sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/PAGE-10-sm.jpg 500w,
-                                images/lookbook/PAGE-10.jpg 1024w"
-                            class="lazyload" />
-                    </li>
+                    
                     <li>
 
                         <img
@@ -212,25 +194,28 @@
                                 images/lookbook/PAGE-17.jpg 1024w"
                             class="lazyload" />
                     </li>
-
                 </ul>
+                <section id="instagram" class="content-stripe instafeed-container texture">
+                  <div class="insta-content content-block">
+                    <ul class="jhalzfeed">
 
+                    </ul>
+                  </div>
+                </section>
             </div> <!-- #main -->
             <a href="#0" class="cd-top icon-circle-up"></a>
         </main> <!-- #main-container -->
 
+        <script  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script  >window.jQuery || document.write('<script async src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script async src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="//use.typekit.net/wbt4gba.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
-        <script src="js/scripts.js"></script>
-        <!-- <script src="js/vendor/jquery.lazyload.js"></script> -->
-        <script src="js/vendor/jquery.waypoints.min.js"></script>
+        <script >try{Typekit.load();}catch(e){}</script>
+        <!-- <script async src="js/vendor/jquery.waypoints.min.js"></script>-->
         <script src="js/vendor/picturefill.min.js" ></script>
         <script src="js/vendor/lazysizes.min.js" ></script>
+        <script src="js/scripts.js"></script>
 
     </body>
 </html>
