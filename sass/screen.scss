@@ -1,6 +1,3 @@
-/* Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -11,5 +8,7 @@
 @import "partials/fonts";
 @import "partials/main-images";
 @import "partials/general";
+@import "partials/contact";
+@import "partials/instafeed";
 
 
