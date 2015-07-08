@@ -1,37 +1,41 @@
-// body.contact-page{
-// 	background: url(../images/lookbook/15.jpg) no-repeat center center fixed; 
-// 	-webkit-background-size: cover;
-// 	-moz-background-size: cover;
-// 	-o-background-size: cover;
-// 	background-size: cover;
-// 	height:100%;
-// 	width:100%;
-// }
-
-.bg-container {
-    position: relative;
-    background: #000;
-    overflow: hidden;
-    height:100%;
+body.contact{
+	background: url(../images/contact_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
 	width:100%;
-}
-/* You could use :after - it doesn't really matter */
-.bg-container:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.6;
-    background-image: url(../images/lookbook/15.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+    section.block_container{
+        @include outer-container;
+        padding-top: 20%;
+        .contact-block{
+            @include span-columns(4);
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            height:18.0em;
+            padding:2%;
+            h2{
+                font-family: $primary-font;
+                font-size: 2.0em;
+                text-transform: capitalize;
+                border: 4px solid #000;
+                padding: 0.75em;
+            }
+            h3{
+                font-family: $secondary-font;
+                font-size: 1.5em;
+                margin: 0;
+            }
+            p{
+                font-family: $secondary-font;
+                font-size: 1.5em;
+                margin: 0;
+            }
+            @include media($tablet){
+                @include span-columns(12);
+                margin-bottom: 2.0em;
+            }
+        }
+    }
 }

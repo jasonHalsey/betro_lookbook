@@ -11,10 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheets/screen.css">
 
-        <!-- <script src="js/instafeed.js"></script> -->
+        <script src="js/instafeed.min.js"></script>
+        <script async src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+         
     </head>
-    <body class="contact-page">
-    	<div class="bg-container">
+    <body class="<?= basename($_SERVER['PHP_SELF'], ".php")?>">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -29,7 +31,7 @@
               <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="downloads/linesheet.pdf" target="_blank">line sheet</a></li>
-                <li><a href="javascript:void(0)">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
               </ul>
               <div class="nav_logo">
                 <img src="images/betro_logo.svg" />
@@ -39,22 +41,3 @@
             <div class="js-menu-screen sliding-panel-fade-screen"></div>
 
         </div>
-
-        <main class="cd-container">
-            <div class="main">
-
-            </div>
-        </main> <!-- #main-container -->
-
-        <script  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script  >window.jQuery || document.write('<script async src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script async src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="//use.typekit.net/wbt4gba.js"></script>
-        <script >try{Typekit.load();}catch(e){}</script>
-        <script src="js/vendor/spectragram.min.js" ></script>
-        <script src="js/scripts.js"></script>
-        <!-- <script src="js/hd-instagram.js"></script> -->
-        </div>
-    </body>
-</html>
