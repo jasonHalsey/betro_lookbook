@@ -16,7 +16,7 @@
                 <div class="contact-block">
                     <h2>east coast sales</h2>
                     <h3>Tracy Schwartz</h3>
-                    <p> </p>
+                    <p> 516-779-3673</p>
                     <p>tracy@blvdbrandsllc.com</p>
                 </div>
             </section>
