@@ -1,13 +1,13 @@
 <?php 
     include_once("inc/header.php"); 
-    $password = "admin";  // Modify Password to suit for access, Max 10 Char.
+    include("inc/download_resource.php"); 
+    
 ?>
 
         <main class="cd-container">
             <section class="block_container">
                 <div class="download-block">
-                    <h2>Line Sheet</h2>
-                   
+                    <h2>Line Sheet</h2>                 
 
                     <?php 
                         
@@ -34,9 +34,6 @@
                         }
                         
                      ?>
-
-
-
                 </div>
             </section>
         </main> <!-- #main-container -->
