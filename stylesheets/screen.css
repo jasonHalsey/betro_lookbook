@@ -425,12 +425,11 @@ picture {
 /* line 86, ../sass/partials/_sliding-menu.scss */
 .nav_logo {
   padding: 0.75em 1.0em 1.0em 0.5em;
-  position: absolute;
-  bottom: 10%;
   border-bottom: 1px solid #444;
   border-top: 1px solid #444;
+  margin-top: 2.0em;
 }
-/* line 92, ../sass/partials/_sliding-menu.scss */
+/* line 93, ../sass/partials/_sliding-menu.scss */
 .nav_logo img {
   width: 100%;
   height: auto;
@@ -441,12 +440,12 @@ picture {
 Modules - reusable parts of our design
 
 -------------------------------- */
-/* line 105, ../sass/partials/_sliding-menu.scss */
+/* line 106, ../sass/partials/_sliding-menu.scss */
 .cd-container {
   width: 100%;
 }
 
-/* line 108, ../sass/partials/_sliding-menu.scss */
+/* line 109, ../sass/partials/_sliding-menu.scss */
 .cd-container::after {
   /* clearfix */
   content: '';
@@ -454,7 +453,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* line 114, ../sass/partials/_sliding-menu.scss */
+/* line 115, ../sass/partials/_sliding-menu.scss */
 .cd-top {
   display: block;
   position: fixed;
@@ -470,41 +469,41 @@ Modules - reusable parts of our design
   transition: opacity .3s 0s, visibility 0s .3s;
 }
 
-/* line 129, ../sass/partials/_sliding-menu.scss */
+/* line 130, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
 
-/* line 134, ../sass/partials/_sliding-menu.scss */
+/* line 135, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
 
-/* line 139, ../sass/partials/_sliding-menu.scss */
+/* line 140, ../sass/partials/_sliding-menu.scss */
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
 
-/* line 143, ../sass/partials/_sliding-menu.scss */
+/* line 144, ../sass/partials/_sliding-menu.scss */
 .no-touch .cd-top:hover {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 148, ../sass/partials/_sliding-menu.scss */
+  /* line 149, ../sass/partials/_sliding-menu.scss */
   .cd-top {
     right: 20px;
     bottom: 20px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 154, ../sass/partials/_sliding-menu.scss */
+  /* line 155, ../sass/partials/_sliding-menu.scss */
   .cd-top {
     height: 60px;
     width: 60px;
