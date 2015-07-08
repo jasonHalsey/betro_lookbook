@@ -2,7 +2,7 @@ $primary-font: felt-tip-woman;
 $secondary-font: atrament-web;
 $base-font-color: #ffffff;
 
-
+$smscreen: new-breakpoint(max-width 1220px);
 $tablet: new-breakpoint(max-width 979px);
 $mobile: new-breakpoint(max-width 767px);
 $phone: new-breakpoint(max-width 468px);

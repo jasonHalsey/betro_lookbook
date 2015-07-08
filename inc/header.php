@@ -29,8 +29,8 @@
 
             <nav class="js-menu sliding-panel-content">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="downloads/linesheet.pdf" target="_blank">line sheet</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="download.php" target="_blank">line sheet</a></li>
                 <li><a href="contact.php">Contact</a></li>
               </ul>
               <div class="nav_logo">

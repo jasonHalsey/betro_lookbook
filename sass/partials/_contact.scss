@@ -37,5 +37,8 @@ body.contact{
                 margin-bottom: 2.0em;
             }
         }
+        @include media($phone){
+            padding-top:40%;
+        }
     }
 }
