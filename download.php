@@ -1,5 +1,5 @@
 <?php 
-    include_once("inc/header.php"); 
+    include("inc/header.php"); 
     include("inc/download_resource.php"); 
     
 ?>

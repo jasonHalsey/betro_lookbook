@@ -57,6 +57,16 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 	{ offset: '10%' });
 
 
+//Scroll to Instagram
+	$('a.insta').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $(this).attr('href') ).offset().top
+	    }, 500);
+	    $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+	    return false;
+	});
+
+
 }); //end doc.ready
 
 

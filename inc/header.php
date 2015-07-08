@@ -30,7 +30,17 @@
             <nav class="js-menu sliding-panel-content">
               <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="download.php" target="_blank">line sheet</a></li>
+                <li><a href="download.php" target="_blank">wholesale</a></li>
+
+                <?php 
+                    $pageName = basename($_SERVER['PHP_SELF'], ".php");
+
+                    if ($pageName == "index") {
+                        print "<li><a class='insta' href='#instagram'>Instagram</a></li>";
+                    }                                       
+                ?> 
+
+
                 <li><a href="contact.php">Contact</a></li>
               </ul>
               <div class="nav_logo">

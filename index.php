@@ -1,4 +1,6 @@
-<?php include_once("inc/header.php"); ?>
+<?php 
+    include("inc/header.php"); 
+?>
 
         <main class="cd-container">
             <div class="main">
