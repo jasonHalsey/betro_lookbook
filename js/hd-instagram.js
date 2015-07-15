@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 	$('ul.jhalzfeed').spectragram('getUserFeed',{
 	    query: 'betrosimonecollection',
-	    max: 32,
+	    max: 36,
 	    size: 'big',
 	    wrapEachWith: '<li class="instagram_image"></li>'
 	});
