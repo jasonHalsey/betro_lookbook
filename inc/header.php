@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Betro Simone</title>
+        <meta name="description" content="Betro Simone seamlessly fuses luxurious modal and novelty knits into effortless bodies and classic silhouettes. The collection draws an eclectic mix of inspiration from water color paintings, granite to galaxy clusters and geodes. Artisanal washes of marbleized, ombre, splatter, woodgrain elements are featured on an array of breezy dresses and separates. Creating optimal drape and movement, woven rayon remains a signature Betro Simone fabric while incorporating light weight modal spandex, sweater knit, bamboo baby, french terry in subtle shades, creating an organic tonal texture throughout the collection.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheets/screen.css">
 
