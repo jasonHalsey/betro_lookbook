@@ -10,30 +10,30 @@
 
                         <img
                             alt=""
-                            src="images/lookbook/01-sm.jpg"
+                            src="images/lookbook_2016/01-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/01-sm.jpg 500w,
-                                images/lookbook/01.jpg 1024w"
+                            data-srcset="images/lookbook_2016/01-sm.jpg 500w,
+                                images/lookbook_2016/01.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/02-sm.jpg"
+                            src="images/lookbook_2016/02-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/02-sm.jpg 500w,
-                                images/lookbook/02.jpg 1024w"
+                            data-srcset="images/lookbook_2016/02-sm.jpg 500w,
+                                images/lookbook_2016/02.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/03-sm.jpg"
+                            src="images/lookbook_2016/03-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/03-sm.jpg 500w,
-                                images/lookbook/03.jpg 1024w"
+                            data-srcset="images/lookbook_2016/03-sm.jpg 500w,
+                                images/lookbook_2016/03.jpg 1024w"
                             class="lazyload" />
                     </li>
 
@@ -41,10 +41,10 @@
 
                         <img
                             alt=""
-                            src="images/lookbook/04-sm.jpg"
+                            src="images/lookbook_2016/04-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/04-sm.jpg 500w,
-                                images/lookbook/04.jpg 1024w"
+                            data-srcset="images/lookbook_2016/04-sm.jpg 500w,
+                                images/lookbook_2016/04.jpg 1024w"
                             class="lazyload" />
                         <div class="byebye_overlay"> This is the overlay</div>
                     </li>
@@ -52,81 +52,70 @@
 
                         <img
                             alt=""
-                            src="images/lookbook/05-sm.jpg"
+                            src="images/lookbook_2016/05-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/05-sm.jpg 500w,
-                                images/lookbook/05.jpg 1024w"
+                            data-srcset="images/lookbook_2016/05-sm.jpg 500w,
+                                images/lookbook_2016/05.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/06-sm.jpg"
+                            src="images/lookbook_2016/06-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/06-sm.jpg 500w,
-                                images/lookbook/06.jpg 1024w"
+                            data-srcset="images/lookbook_2016/06-sm.jpg 500w,
+                                images/lookbook_2016/06.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/07-sm.jpg"
+                            src="images/lookbook_2016/07-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/07-sm.jpg 500w,
-                                images/lookbook/07.jpg 1024w"
+                            data-srcset="images/lookbook_2016/07-sm.jpg 500w,
+                                images/lookbook_2016/07.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/08-sm.jpg"
+                            src="images/lookbook_2016/08-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/08-sm.jpg 500w,
-                                images/lookbook/08.jpg 1024w"
+                            data-srcset="images/lookbook_2016/08-sm.jpg 500w,
+                                images/lookbook_2016/08.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/09-sm.jpg"
+                            src="images/lookbook_2016/09-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/09-sm.jpg 500w,
-                                images/lookbook/09.jpg 1024w"
+                            data-srcset="images/lookbook_2016/09-sm.jpg 500w,
+                                images/lookbook_2016/09.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/10-sm.jpg"
+                            src="images/lookbook_2016/10-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/10-sm.jpg 500w,
-                                images/lookbook/10.jpg 1024w"
+                            data-srcset="images/lookbook_2016/10-sm.jpg 500w,
+                                images/lookbook_2016/10.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/11-sm.jpg"
+                            src="images/lookbook_2016/11-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/11-sm.jpg 500w,
-                                images/lookbook/11.jpg 1024w"
-                            class="lazyload" />
-                    </li>
-                    
-                    <li>
-
-                        <img
-                            alt=""
-                            src="images/lookbook/12-sm.jpg"
-                            sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/12-sm.jpg 500w,
-                                images/lookbook/12.jpg 1024w"
+                            data-srcset="images/lookbook_2016/11-sm.jpg 500w,
+                                images/lookbook_2016/11.jpg 1024w"
                             class="lazyload" />
                     </li>
                     
@@ -134,20 +123,41 @@
 
                         <img
                             alt=""
-                            src="images/lookbook/13-sm.jpg"
+                            src="images/lookbook_2016/12-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/13-sm.jpg 500w,
-                                images/lookbook/13.jpg 1024w"
+                            data-srcset="images/lookbook_2016/12-sm.jpg 500w,
+                                images/lookbook_2016/12.jpg 1024w"
+                            class="lazyload" />
+                    </li>
+                    
+                    <li>
+
+                        <img
+                            alt=""
+                            src="images/lookbook_2016/13-sm.jpg"
+                            sizes="(min-width: 1000px) 930px, 90vw"
+                            data-srcset="images/lookbook_2016/13-sm.jpg 500w,
+                                images/lookbook_2016/13.jpg 1024w"
                             class="lazyload" />
                     </li>
                     <li>
 
                         <img
                             alt=""
-                            src="images/lookbook/14-sm.jpg"
+                            src="images/lookbook_2016/14-sm.jpg"
                             sizes="(min-width: 1000px) 930px, 90vw"
-                            data-srcset="images/lookbook/14-sm.jpg 500w,
-                                images/lookbook/14.jpg 1024w"
+                            data-srcset="images/lookbook_2016/14-sm.jpg 500w,
+                                images/lookbook_2016/14.jpg 1024w"
+                            class="lazyload" />
+                    </li>
+                    <li>
+
+                        <img
+                            alt=""
+                            src="images/lookbook_2016/15-sm.jpg"
+                            sizes="(min-width: 1000px) 930px, 90vw"
+                            data-srcset="images/lookbook_2016/15-sm.jpg 500w,
+                                images/lookbook_2016/15.jpg 1024w"
                             class="lazyload" />
                     </li>
                     
