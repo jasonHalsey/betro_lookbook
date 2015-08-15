@@ -14,14 +14,14 @@
                         // If password is valid let the user get access
                         if (isset($_POST["password"]) && ($_POST["password"]=="$password")) {
                         ?>
-                        <!-- START OF HIDDEN HTML - PLACE YOUR CONTENT HERE -->
+                        <!-- START OF HIDDEN HTML -->
 
                           <p align="center">
                             <a href="downloads/linesheet.pdf" target="_blank" class="button">Download</a><br />
                           <strong>Thank You</strong><br />Click the above button to download the line sheet.</p>
 
 
-                        <!-- END OF HIDDEN HTML -->
+                        <!-- END  -->
                         <?php 
                         }
                         else
